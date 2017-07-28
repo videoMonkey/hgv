@@ -70,7 +70,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     config.vm.provider "hyperv" do |hv, override|
         # Hyper-V compatible box
-        override.vm.box = "ericmann/trusty64"
+        override.vm.box = "withinboredom/Trusty64"
 
         # The following configuration options are only available post 1.7.2
         if vagrant_version >= "1.7.3"
